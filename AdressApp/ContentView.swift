@@ -29,7 +29,7 @@ struct ContentView: View {
         .padding()
         .background(Color.idkbruh, in: RoundedRectangle(cornerRadius: 10))
 
-//        Spacer()
+        Spacer()
         HStack{
             VStack{
                 List {
