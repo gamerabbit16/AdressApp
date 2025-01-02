@@ -43,8 +43,6 @@ struct ContentView: View {
                 if !qname {
                     TextField("Enter a Name", text: $name)
                         .padding()
-                    //                        .background(Color.gray, in: RoundedRectangle(cornerRadius: 8))
-                    //                        .foregroundColor(Color.green)
                         .autocorrectionDisabled()
                         .onSubmit {
                             qname = true
