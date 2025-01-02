@@ -27,7 +27,9 @@ struct ContentView: View {
                 .bold()
         }
         .padding()
-        Spacer()
+        .background(Color.idkbruh, in: RoundedRectangle(cornerRadius: 10))
+
+//        Spacer()
         HStack{
             VStack{
                 List {
@@ -76,8 +78,11 @@ struct ContentView: View {
             }
                 
             }
+//        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.idkbruh)
         
     }
+    
 }
 
 #Preview {
